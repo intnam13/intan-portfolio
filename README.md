@@ -18,7 +18,7 @@ Once deployed, you can view it here: [https://github.com/intnam13/intan-portfoli
 - **UI Components:** Shadcn/UI  
 - **Icons:** Lucide React  
 - **Animation:** Framer Motion  
-- **Deployment:** GitHub Pages (or Netlify / Vercel)
+- **Deployment:** GitHub Pages
 
 ---
 
@@ -45,3 +45,30 @@ cd intan-portfolio
 Run `npm install`\n2. 
 Start with `npm run dev`\n3. 
 Build using `npm run build`\n\nTo deploy, push to GitHub Pages following README instructions.
+
+🧱 Making Changes
+
+Whenever you make edits to your code (e.g., update components, styles, or content):
+
+git add .
+git commit -m "update portfolio content"
+git push origin master
+
+
+This updates your source code only, not the live website yet.
+
+🌐 Deploying to GitHub Pages
+
+To publish the latest version of your site live:
+
+npm run build
+npm run deploy
+
+🧩 What each command does
+
+npm run build → creates optimized static files in the dist/ folder
+
+npm run deploy → pushes the built files to the gh-pages branch
+
+After deploying, wait 1–3 minutes, then visit:
+👉 https://intnam13.github.io/intan-portfolio/
