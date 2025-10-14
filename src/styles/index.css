@@ -11,5 +11,12 @@ body {
 }
 
 .prose a {
-  color: #fd93ed
+  color: #fd93ed;
+}
+
+/* 👇 Add this section */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  /* offset for your fixed header */
 }
