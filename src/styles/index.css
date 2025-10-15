@@ -20,3 +20,15 @@ html {
   scroll-padding-top: 100px;
   /* offset for your fixed header */
 }
+
+.about-text p {
+  text-indent: 2em;
+  /* adjust space as you like */
+  margin-bottom: 1rem;
+  /* adds spacing between paragraphs */
+}
+
+/* Custom section title color */
+.section-title {
+  color: #faf8fa;
+}

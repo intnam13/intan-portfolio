@@ -72,3 +72,21 @@ npm run deploy → pushes the built files to the gh-pages branch
 
 After deploying, wait 1–3 minutes, then visit:
 👉 https://intnam13.github.io/intan-portfolio/
+
+
+## Linting & Code Formatting
+
+This project uses **ESLint** and **Prettier** to maintain code quality and consistent formatting.
+
+### Check for ESLint errors
+```bash
+npm run lint
+or
+
+bash
+Copy code
+npx eslint "src/**/*.{js,jsx}"
+Automatically fix ESLint errors
+bash
+Copy code
+npm run lint:fix
