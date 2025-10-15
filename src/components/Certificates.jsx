@@ -1,4 +1,6 @@
 import React from "react";
+import qaFacilitatorCert from "../assets/certificates/qa_facilitator_certificate.png";
+import javaOopCert from "../assets/certificates/oop_certificate_valid_2024.png";
 
 const certs = [
   {
@@ -6,14 +8,16 @@ const certs = [
     title: "QA Facilitator",
     issuer: "binaracademy.com",
     href: "https://www.credential.net/005c6081-1bd7-407a-9ada-fa27354cc0d2#acc.Ia4JT3Pd",
-    img: "certificate-images/qa_facilitator_certificate.png",
+    // img: "certificate-images/qa_facilitator_certificate.png",
+    img: qaFacilitatorCert,
   },
   {
     id: "c2",
     title: "Java OOP",
     issuer: "codepolitan.com",
     href: "https://www.codepolitan.com/c/RIKPNUD/",
-    img: "certificate-images/oop_certificate_valid_2024.png",
+    // img: "certificate-images/oop_certificate_valid_2024.png",
+    img: javaOopCert,
   },
 ];
 
