@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,22 +17,20 @@ export default function App() {
           <section id="about" className="prose-invert about-text">
             <h2 className="section-title">About Me</h2>
             <p>
-              Hiii! Intan is here, a QA Engineer with a strong focus on
-              automation, bringing over 8 years of experience in ensuring
-              smooth, reliable, and user-friendly digital experiences. I enjoy
-              writing automation tests, optimizing workflows, and continuously
+              Hiii! Intan is here, a QA Engineer with a strong focus on automation, bringing over 8
+              years of experience in ensuring smooth, reliable, and user-friendly digital
+              experiences. I enjoy writing automation tests, optimizing workflows, and continuously
               learning ways to make testing smarter and more efficient.
             </p>
             <p>
-              Beyond work, I find inspiration in music, stories, and everyday
-              moments. I love pop and pop-rock songs, journaling, reading a good
-              book, and having thoughtful conversations that spark new ideas. I
-              believe in staying curious, growing through challenges, and
-              keeping a sense of humor along the way.
+              Beyond work, I find inspiration in music, stories, and everyday moments. I love pop
+              and pop-rock songs, journaling, reading a good book, and having thoughtful
+              conversations that spark new ideas. I believe in staying curious, growing through
+              challenges, and keeping a sense of humor along the way.
             </p>
             <br />
             <a
-              href="/public/intan_namira_resume.pdf"
+              href={`${import.meta.env.BASE_URL}intan_namira_resume.pdf`}
               download
               className="inline-block mt-4 px-4 py-2 rounded-lg border border-neutral-700 hover:bg-neutral-800"
             >
@@ -55,6 +54,9 @@ export default function App() {
           </div>
         </main>
       </div>
+
+      {/* Footer - outside max width so it spans full width */}
+      <Footer />
     </div>
   );
 }

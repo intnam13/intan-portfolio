@@ -4,10 +4,28 @@ import ProjectCard from "./ProjectCard";
 const sampleProjects = [
   {
     id: "cypress-fw",
-    title: "Cypress Automation Framework (TBD)",
-    desc: "End-to-end test framework using Cypress, CI integration, page objects, and custom commands.",
-    tech: ["Cypress", "Node", "GitHub Actions"],
-    link: "#",
+    title: "Cypress Automation with BDD approach and Allure Report",
+    desc: (
+      <div>
+        <p>This project automates testing for a Demo Website using:</p>
+        <ul className="list-disc ml-5 mt-2 text-gray-300 text-sm space-y-1">
+          <li>
+            <strong>Cypress</strong> – End-to-end testing framework
+          </li>
+          <li>
+            <strong>Cucumber (Gherkin)</strong> – BDD style scenarios (.feature files)
+          </li>
+          <li>
+            <strong>Page Object Model (POM)</strong> – Organized selectors & actions
+          </li>
+          <li>
+            <strong>Allure Reports</strong> – Beautiful test reports (HTML)
+          </li>
+        </ul>
+      </div>
+    ),
+    tech: ["Cypress", "Cucumber", "Allure", "Javascript"],
+    link: "https://github.com/intnam13/cypress-bdd-with-allure-report",
   },
   {
     id: "postman-tests",

@@ -7,28 +7,31 @@ It’s built as a **React website** to display my projects, tools, and professio
 ---
 
 ## 🌐 Live Preview
+
 (Coming soon)  
 Once deployed, you can view it here: [https://github.com/intnam13/intan-portfolio](https://intnam13.github.io/intan-portfolio)
 
 ---
 
 ## 🧰 Tech Stack
-- **Frontend:** React + Vite  
-- **Styling:** Tailwind CSS  
-- **UI Components:** Shadcn/UI  
-- **Icons:** Lucide React  
-- **Animation:** Framer Motion  
+
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn/UI
+- **Icons:** Lucide React
+- **Animation:** Framer Motion
 - **Deployment:** GitHub Pages
 
 ---
 
 ## 🧱 Features
-- Clean and responsive UI  
+
+- Clean and responsive UI
 - Sections for:
-  - About Me  
-  - QA & Automation Projects  
-  - Skills & Tools  
-  - Contact Information  
+  - About Me
+  - QA & Automation Projects
+  - Skills & Tools
+  - Contact Information
 - Easily customizable content
 
 ---
@@ -36,14 +39,15 @@ Once deployed, you can view it here: [https://github.com/intnam13/intan-portfoli
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone this repository
-```bash
+
+````bash
 git clone https://github.com/intnam13/intan-portfolio.git
 cd intan-portfolio
---- 
+---
 
 ## run in local
-Run `npm install`\n2. 
-Start with `npm run dev`\n3. 
+Run `npm install`\n2.
+Start with `npm run dev`\n3.
 Build using `npm run build`\n\nTo deploy, push to GitHub Pages following README instructions.
 
 🧱 Making Changes
@@ -90,3 +94,4 @@ Automatically fix ESLint errors
 bash
 Copy code
 npm run lint:fix
+````
