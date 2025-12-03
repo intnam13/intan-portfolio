@@ -1,4 +1,4 @@
-# 🧪 QA Portfolio – Vanilla Ice Cream
+# 🧪 QA Portfolio – Intan
 
 Welcome to my QA Portfolio!  
 This project showcases my experience and skills in **Quality Assurance** — including manual testing, automation, and API validation.  
